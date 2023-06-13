@@ -1,0 +1,28 @@
+*{
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+}
+h1{
+    text-align: center;
+}
+.tabla{
+    margin-right: auto;
+    margin-left: auto;
+    
+}
+.tabla th ,
+.tabla td{
+    padding:  20px;
+    text-align: center;
+}
+
+.tabla td:hover{
+    background-color: aqua;
+    background-image: ;
+    background-position: ;
+    background-size: ;
+    background-repeat: ;
+}
