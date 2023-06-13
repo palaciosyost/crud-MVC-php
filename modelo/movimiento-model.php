@@ -17,7 +17,7 @@ class movimientos_model
     {
         require_once 'paginacion-modelo.php';
         try {
-            $sql = "SELECT * FROM contactosguardados limit $inicio_datos,$cantidad_datos ORDER BY ";
+            $sql = "SELECT * FROM contactosguardados limit $inicio_datos,$cantidad_datos";
             $salida = $this->base->query($sql);
 
             while ($fila = $salida->fetch(PDO::FETCH_ASSOC)) {
